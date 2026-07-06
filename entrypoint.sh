@@ -55,7 +55,7 @@ foreground = yes
 debug = 4
 
 [ssh-ssl]
-accept = 127.0.0.1:$SSL_INTERNAL_PORT
+accept = 0.0.0.0:$SSL_INTERNAL_PORT
 connect = 127.0.0.1:22
 cert = /etc/stunnel/stunnel.pem
 EOF
